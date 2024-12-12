@@ -2,6 +2,7 @@ package org.howard.edu.lsp.midterm.question2;
 
 public class Calculator {
 
+<<<<<<< HEAD
     /**
      * Returns the sum of two integers.
      *
@@ -36,6 +37,20 @@ public class Calculator {
             throw new IllegalArgumentException("Input array cannot be null");
         }
 
+=======
+    // Sum two integers
+    public static int sum(int a, int b) {
+        return a + b;
+    }
+
+    // Sum two double values
+    public static double sum(double a, double b) {
+        return a + b;
+    }
+
+    // Sum all elements in an array of integers
+    public static int sum(int[] array) {
+>>>>>>> branch 'master' of https://github.com/Ammugera/LSP_Repo_Munene.git
         int total = 0;
         for (int num : array) {
             total += num;
