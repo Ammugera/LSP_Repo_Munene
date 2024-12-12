@@ -8,7 +8,7 @@ public class MapUtilities {
 
     /**
      * Returns the number of common key-value pairs between two HashMaps.
-     * If either or both maps are empty, the method returns 0.
+     * If either or both maps are empty the method instead returns 0.
      *
      * @param map1 the first HashMap with String keys and values
      * @param map2 the second HashMap with String keys and values
